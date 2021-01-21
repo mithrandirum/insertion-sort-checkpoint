@@ -1,0 +1,25 @@
+ALGORITHM sort_insertion
+VAR
+ arr: ARRAY_OF INTEGER[50];
+ i,j : INTEGER
+ storing_var : INTEGER
+
+ arr := [ 5, 7, 8, 2, 6, 3, 4]
+BEGIN
+ FOR i FROM 1 TO arr.length-1 STEP 1 DO
+    storing_var = arr[i]
+
+    j = i - 1
+
+    WHILE (i > arr.length AND i[j] > storing_var  DO
+       
+      arr[j] + 1 = arr[j] 
+      
+       j--
+    END_WHILE
+   
+    arr [j + 1] =  storing_var 
+
+
+ END_FOR
+END
